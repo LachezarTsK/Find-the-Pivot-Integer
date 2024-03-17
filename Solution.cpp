@@ -1,10 +1,7 @@
 
-#include <algorithm>
-using namespace std;
-
 class Solution {
 
-    static const int NO_PIVOT_INTEGER_FOOUND = -1;
+    static const int NO_PIVOT_INTEGER_FOUND = -1;
 
 public:
     int pivotInteger(int n) {
@@ -15,6 +12,6 @@ public:
                 * squareRootOfSumAllValuesRoundedDownToNearestInteger)
                 == sumAllValues
                 ? squareRootOfSumAllValuesRoundedDownToNearestInteger
-                : NO_PIVOT_INTEGER_FOOUND;
+                : NO_PIVOT_INTEGER_FOUND;
     }
 };

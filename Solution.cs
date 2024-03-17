@@ -7,7 +7,6 @@ public class Solution
 
     public int PivotInteger(int n)
     {
-
         int sumAllValues = n * (n + 1) / 2;
         int squareRootOfSumAllValuesRoundedDownToNearestInteger = (int)Math.Sqrt(sumAllValues);
 

@@ -3,7 +3,7 @@ using System;
 
 public class Solution
 {
-    private static readonly int NO_PIVOT_INTEGER_FOOUND = -1;
+    private static readonly int NO_PIVOT_INTEGER_FOUND = -1;
 
     public int PivotInteger(int n)
     {
@@ -15,6 +15,6 @@ public class Solution
                 * squareRootOfSumAllValuesRoundedDownToNearestInteger)
                 == sumAllValues
                 ? squareRootOfSumAllValuesRoundedDownToNearestInteger
-                : NO_PIVOT_INTEGER_FOOUND;
+                : NO_PIVOT_INTEGER_FOUND;
     }
 }

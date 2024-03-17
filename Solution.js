@@ -5,7 +5,7 @@
  */
 var pivotInteger = function (n) {
 
-    const NO_PIVOT_INTEGER_FOOUND = -1;
+    const NO_PIVOT_INTEGER_FOUND = -1;
     let sumAllValues = n * (n + 1) / 2;
     let squareRootOfSumAllValuesRoundedDownToNearestInteger = Math.floor(Math.sqrt(sumAllValues));
 
@@ -13,5 +13,5 @@ var pivotInteger = function (n) {
             * squareRootOfSumAllValuesRoundedDownToNearestInteger)
             === sumAllValues
             ? squareRootOfSumAllValuesRoundedDownToNearestInteger
-            : NO_PIVOT_INTEGER_FOOUND;
+            : NO_PIVOT_INTEGER_FOUND;
 };
